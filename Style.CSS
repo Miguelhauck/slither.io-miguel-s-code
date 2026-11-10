@@ -1,0 +1,35 @@
+body {
+  background-color: #fdff84;
+  color: black;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+h1 {
+  color: rgb(252, 7, 7);
+  font-size: 32px;
+  animation: color-change 3s infinite;
+}
+
+p {
+  font-size: 18px;
+}
+
+img {
+  width: 300px;
+  border-radius: 10px;
+}  
+@keyframes color-change {
+  0%   { color: blue; }
+  50%  { color: red; }
+  100% { color: blue; }
+} 
+
+ iframe {
+     width: 400px;
+     height: 250px;
+     border: none;
+     border-radius: 10px;
+     display: block;
+     margin: 20px auto;
+ }
